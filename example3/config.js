@@ -10,7 +10,7 @@ requirejs.config({
 	shim: {	//setting up a shim for non-AMD libraries
 		backbone: {
 			deps: ['jquery', 'underscore'],	//adding these dependencies to backbone
-			exports: 'backbone'
+			exports: 'Backbone'
 		}
 	}
 });
