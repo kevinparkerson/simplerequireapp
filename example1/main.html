@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Example 1 - Require Hello World</title>
+
+	<!--Step 1: include require-->
+	<script src="../lib/require.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		//Step 2: Config your requirejs instance
+		requirejs.config({
+			paths: {
+				'jquery': '../lib/jquery',
+				'main': 'main',
+				'underscore': '../lib/underscore'
+			}
+		});
+		//Step 3: Add the "kicker", pointing to your main app file
+		require(['main'], function(){});
+	</script>
+</head>
+<body>
+
+</body>
+</html>

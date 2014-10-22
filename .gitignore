@@ -1,0 +1,16 @@
+# filesystem
+.DS_Store
+
+# dependencies
+node_modules
+bower_components
+
+# gh-pages
+_site/*
+
+# logs
+*.log
+validation-status.json
+
+# Editors / IDEs
+.idea
