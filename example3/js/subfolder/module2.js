@@ -11,7 +11,7 @@ define(function(require){
 		},
 
 		initialize: function(){
-			_.bindAll(this, 'mew', 'render');
+			_.bindAll(this, 'mew', 'onClickHandler', 'render');
 
 			this.render();
 		},

@@ -15,7 +15,7 @@ define(function(require){
 		},
 
 		initialize: function(){
-			_.bindAll(this, 'bark', 'render');
+			_.bindAll(this, 'bark', 'onClickHandler', 'render');
 
 			this.render();
 		},
